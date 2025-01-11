@@ -2,10 +2,12 @@ manifest:
   remotes:
     - name: moergo-sc
       url-base: https://github.com/moergo-sc
+    - name: patched-zmk
+      url-base: https://github.com/caksoylar
   projects:
     - name: zmk
-      remote: moergo-sc
-      revision: main
+      remote: patched-zmk
+      revision: behaviors/sticky-key-positions
       import: app/west.yml
   self:
     path: config
