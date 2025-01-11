@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: patched-zmk
-      revision: behaviors/sticky-key-positions
+      revision: behaviors/sticky-key-positions-moergo
       import: app/west.yml
   self:
     path: config
